@@ -1,0 +1,39 @@
+:root {
+  --primary-color: #1abc9c;
+  --primary-hover: #16a085;
+  --secondary-color: #4db6ac;
+  --secondary-hover: #80cbc4;
+  --bg-light: #f4f4f9;
+  --bg-column: #ffffff;
+  --text-color: #333;
+  --delete-btn-bg: #e74c3c;
+  --delete-btn-hover: #c0392b;
+  --btn-text-color: white;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
